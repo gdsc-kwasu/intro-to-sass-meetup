@@ -6,4 +6,4 @@ const mix = require("laravel-mix");
 /*
 * Specify list of assets to compile, and how.
 */
-mix.sass('sass/app.scss', 'dist/app.css');
+mix.sass('sass/app.scss', 'public/css/');

@@ -1,9 +1,9 @@
-/*
-* Import the variables.
-*/
-@import "./variables";
+@import "variables";
+@import "animation";
 
-body {
-	background-color: $primary;
-	color: #fff;
-}
+@import "setup";
+@import "grid";
+
+// components import
+@import "components/input";
+@import "components/button";

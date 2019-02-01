@@ -1,0 +1,26 @@
+
+.form-row {
+  display: block;
+  margin: 8px 0;
+}
+
+.form-group {
+  padding: 10px 15px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 12px 12px;
+  margin: 5px 0;
+  font-family: $font-family-body;
+  border: 0;
+}
+.brd-rad {
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 540px) {
+  .form-group { width: 90%; padding: 10px}
+
+}

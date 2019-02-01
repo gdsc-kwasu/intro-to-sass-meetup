@@ -1,0 +1,27 @@
+@keyframes bgcolor-switcher {
+  0% {
+    background-color: $primary;
+  }
+
+  20% {
+    background-color: $secondary;
+  }
+
+  40% {
+    background-color: $success;
+  }
+
+  50% {
+    background-color: $error;
+  }
+
+  60% {
+    background-color: $success;
+  }
+  80% {
+    background-color: $secondary;
+  }
+  100% {
+    background-color: $primary;
+  }
+}

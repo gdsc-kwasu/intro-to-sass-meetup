@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:700,900');
+
+@mixin display ($font-size) {
+  font-size: $font-size * 1em;
+  font-family: Montserrat, "sans-serif";
+}
+
+body {
+  background-color: $body-bg;
+  color: $text-color;
+  font-family: $font-family-body;
+  font-size: 17px;
+  animation-name: bgcolor-switcher;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading;
+}
+
+.display-1 {
+  @include  display(3);
+}
+.display-2 {
+  @include display(2);
+}

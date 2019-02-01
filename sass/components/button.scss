@@ -1,0 +1,16 @@
+.btn {
+background-color: #ecf0f1;
+  color: lighten(#000, 50%);
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 0;
+  font-family: $font-family-heading;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 1s linear;
+
+  &:hover {
+    background-color: darken(#ecf0f1, 10%);
+    transition: background-color .7s linear;
+  }
+}
